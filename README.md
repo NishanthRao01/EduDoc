@@ -1,119 +1,89 @@
-📘 EduDoc
+# 📘 EduDoc
 
-EduDoc is a full-stack web application designed to manage, search, and organize educational documents efficiently. It provides secure user authentication, structured document management, and a responsive user interface tailored for academic use cases.
+EduDoc is a full-stack web application built to manage, search, and organize educational documents efficiently.  
+It features secure authentication, structured document management, and a modern, responsive user interface.
 
-This project demonstrates real-world full-stack development practices, including authentication, REST APIs, protected routes, and a modern frontend architecture.
+This project demonstrates real-world full-stack development practices including REST APIs, protected routes, and scalable frontend architecture.
 
-🚀 Features
+---
 
-🔐 User Authentication
+## 🚀 Features
 
-Secure login & registration
+- 🔐 Secure user authentication (login & registration)
+- 📄 Create, view, and manage educational documents
+- 🔎 Search, filter, and paginate documents
+- 🧩 Modular and reusable React components
+- ⚙️ RESTful backend with MongoDB integration
+- 🔒 Protected routes for authorized access
 
-Protected routes for authenticated users
+---
 
-📄 Document Management
+## 🛠️ Tech Stack
 
-Create, view, and manage educational documents
+### Frontend
+- React (Vite)
+- JavaScript (ES6+)
+- CSS
+- Axios
+- React Router
 
-Structured backend models for users and documents
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
 
-🔎 Search & Filtering
+### Tooling
+- Vite
+- ESLint
+- Git & GitHub
 
-Search documents efficiently
+---
 
-Pagination and filtering support on the frontend
+## 📁 Project Structure
 
-🧩 Modular Frontend Architecture
-
-Reusable React components
-
-Clean separation of concerns
-
-⚙️ Production-style Backend
-
-RESTful API using Express
-
-MongoDB models for persistent storage
-
-🛠️ Tech Stack
-Frontend
-
-React (Vite)
-
-JavaScript (ES6+)
-
-CSS
-
-Axios
-
-React Router
-
-Backend
-
-Node.js
-
-Express.js
-
-MongoDB
-
-Mongoose
-
-Tooling & Configuration
-
-Vite
-
-ESLint
-
-Git & GitHub
-
-📁 Project Structure
 EduDoc/
 ├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── server.js
-│   └── package.json
+│ ├── models/
+│ ├── routes/
+│ ├── server.js
+│ └── package.json
 │
 ├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── main.jsx
-│   ├── index.html
-│   └── package.json
+│ ├── src/
+│ │ ├── components/
+│ │ ├── pages/
+│ │ └── main.jsx
+│ ├── index.html
+│ └── package.json
 │
 ├── .gitignore
 ├── package.json
 └── README.md
 
-⚙️ Installation & Setup
-1️⃣ Clone the repository
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
 git clone https://github.com/NishanthRao01/EduDoc.git
 cd EduDoc
 
-2️⃣ Backend Setup
 cd backend
 npm install
 npm start
 
-
-Make sure MongoDB is running locally or update the database connection string.
-
-3️⃣ Frontend Setup
 cd frontend
 npm install
 npm run dev
-
-🔐 Environment Variables
-
-Create a .env file inside the backend folder:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-🧪 Usage
+##🧪 Usage
 
 Register or log in as a user
 
@@ -123,21 +93,19 @@ Browse, search, and manage documents
 
 Navigate using pagination and filters
 
-📌 Project Highlights
+##📌 Project Highlights
 
 Clean Git history with proper .gitignore
 
-Separation of frontend & backend concerns
-
-Real-world authentication flow
+Clear separation of frontend and backend
 
 Scalable folder structure
 
-Suitable for internships & entry-level roles
+Production-style authentication flow
 
-🧠 Learning Outcomes
+Suitable for internships and entry-level roles
 
-This project helped reinforce:
+##🧠 Learning Outcomes
 
 Full-stack application architecture
 
@@ -149,7 +117,7 @@ Component-based UI development
 
 Git & GitHub best practices
 
-🤝 Contributing
+##🤝 Contributing
 
 Contributions are welcome!
 
